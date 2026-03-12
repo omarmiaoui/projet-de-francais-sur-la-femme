@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Femme moderne - Héritage & Modernité</title>
+    <style>
+        /* Mêmes styles que précédemment, on peut les externaliser dans un fichier CSS commun */
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Segoe UI',Roboto,sans-serif; line-height:1.6; color:#2d2d2d; background:#faf7f2; }
+        header { background:#8b3a3a; color:white; padding:1rem 0; text-align:center; }
+        nav ul { list-style:none; display:flex; justify-content:center; gap:2rem; margin-top:0.5rem; flex-wrap:wrap; }
+        nav a { color:white; text-decoration:none; font-weight:500; padding:0.5rem 1rem; border-radius:30px; transition:background 0.3s; }
+        nav a:hover { background:#b35e5e; }
+        .page-header { background:#b35e5e; color:white; text-align:center; padding:3rem 1rem; }
+        .page-header h1 { font-size:2.5rem; margin-bottom:0.5rem; }
+        .container { max-width:1000px; margin:2rem auto; padding:0 1.5rem; }
+        .section { margin-bottom:3rem; }
+        .section h2 { color:#8b3a3a; border-bottom:2px solid #8b3a3a; padding-bottom:0.5rem; margin-bottom:1.5rem; font-family:'Georgia',serif; }
+        .section p { margin-bottom:1rem; }
+        .section img { max-width:100%; height:auto; border-radius:8px; margin:1rem 0; }
+        .image-caption { font-style:italic; color:#666; text-align:center; }
+        .btn { display:inline-block; background:#8b3a3a; color:white; padding:0.7rem 1.5rem; border-radius:30px; text-decoration:none; margin-top:1rem; transition:background 0.3s; }
+        .btn:hover { background:#b35e5e; }
+        footer { background:#333; color:white; text-align:center; padding:2rem; margin-top:2rem; }
+        footer a { color:#f5efe6; }
+        @media (max-width:600px) { nav ul { flex-direction:column; gap:0.5rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Femmes : Héritage & Modernité</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="traditionnelle.html">Traditionnelle</a></li>
+                <li><a href="moderne.html">Moderne</a></li>
+                <li><a href="comparaison.html">Comparaison</a></li>
+                <li><a href="exploitation.html">Exploitation</a></li>
+                <li><a href="temoignages.html">Témoignages</a></li>
+                <li><a href="ressources.html">Ressources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>La femme moderne</h1>
+        <p>Émancipation, défis et nouvelles aspirations</p>
+    </div>
+
+    <div class="container">
+        <section class="section">
+            <h2>Un siècle de conquêtes</h2>
+            <p>Le XXe siècle a vu les femmes accéder progressivement à l'éducation, au vote, au travail salarié, à la contraception et à l'IVG. La femme moderne incarne cette liberté acquise : elle peut choisir son métier, se marier ou non, avoir des enfants ou non, et revendiquer une place égale dans la société.</p>
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Femme moderne au travail">
+            <p class="image-caption">Femme dans un environnement professionnel contemporain (source : Unsplash)</p>
+        </section>
+
+        <section class="section">
+            <h2>Les nouveaux rôles</h2>
+            <p>Aujourd'hui, les femmes sont présentes dans tous les secteurs : politique, sciences, arts, sports, entrepreneuriat. Elles brisent les plafonds de verre et réinventent les modèles. Parallèlement, les hommes commencent à partager davantage les tâches domestiques et parentales, même si les inégalités persistent.</p>
+            <p>La femme moderne est aussi connectée, informée, mobile. Elle utilise les réseaux sociaux pour s'exprimer, militer, créer des réseaux d'entraide. Le féminisme a pris de nouvelles formes (intersectionnel, décolonial, écoféminisme).</p>
+        </section>
+
+        <section class="section">
+            <h2>Les défis contemporains</h2>
+            <p>Malgré les progrès, la femme moderne fait face à des difficultés spécifiques : la charge mentale (gérer simultanément travail, enfants, maison), les discriminations professionnelles (écart de salaire, précarité), les violences sexistes et sexuelles, ou encore les injonctions contradictoires (être une mère parfaite tout en réussissant sa carrière).</p>
+            <p>De plus, la mondialisation et les crises (économiques, sanitaires, climatiques) touchent différemment les femmes, souvent plus vulnérables.</p>
+        </section>
+
+        <section class="section">
+            <h2>Une diversité de parcours</h2>
+            <p>Il n'existe pas une femme moderne, mais des femmes aux réalités plurielles. Une jeune cadre urbaine n'aura pas les mêmes préoccupations qu'une agricultrice ou qu'une réfugiée. La modernité n'est pas linéaire : certaines choisissent de concilier traditions et modernité, d'autres les rejettent.</p>
+            <a href="comparaison.html" class="btn">Comparer avec la femme traditionnelle →</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Femmes : Héritage & Modernité | Tous droits réservés</p>
+        <p></p>
+    </footer>
+</body>
+</html>

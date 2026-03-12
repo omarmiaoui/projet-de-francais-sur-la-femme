@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ressources - Héritage & Modernité</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:'Segoe UI',Roboto,sans-serif; line-height:1.6; color:#2d2d2d; background:#faf7f2; }
+        header { background:#8b3a3a; color:white; padding:1rem 0; text-align:center; }
+        nav ul { list-style:none; display:flex; justify-content:center; gap:2rem; margin-top:0.5rem; flex-wrap:wrap; }
+        nav a { color:white; text-decoration:none; font-weight:500; padding:0.5rem 1rem; border-radius:30px; transition:background 0.3s; }
+        nav a:hover { background:#b35e5e; }
+        .page-header { background:#b35e5e; color:white; text-align:center; padding:3rem 1rem; }
+        .page-header h1 { font-size:2.5rem; margin-bottom:0.5rem; }
+        .container { max-width:1000px; margin:2rem auto; padding:0 1.5rem; }
+        .section { margin-bottom:3rem; }
+        .section h2 { color:#8b3a3a; border-bottom:2px solid #8b3a3a; padding-bottom:0.5rem; margin-bottom:1.5rem; font-family:'Georgia',serif; }
+        .resource-list {
+            list-style: none;
+        }
+        .resource-list li {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .resource-list li strong {
+            color: #8b3a3a;
+            font-size: 1.2rem;
+        }
+        .resource-list li a {
+            color: #8b3a3a;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .resource-list li a:hover {
+            text-decoration: underline;
+        }
+        .btn { display:inline-block; background:#8b3a3a; color:white; padding:0.7rem 1.5rem; border-radius:30px; text-decoration:none; margin-top:1rem; transition:background 0.3s; }
+        .btn:hover { background:#b35e5e; }
+        footer { background:#333; color:white; text-align:center; padding:2rem; margin-top:2rem; }
+        footer a { color:#f5efe6; }
+        @media (max-width:600px) { nav ul { flex-direction:column; gap:0.5rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Femmes : Héritage & Modernité</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="traditionnelle.html">Traditionnelle</a></li>
+                <li><a href="moderne.html">Moderne</a></li>
+                <li><a href="comparaison.html">Comparaison</a></li>
+                <li><a href="exploitation.html">Exploitation</a></li>
+                <li><a href="temoignages.html">Témoignages</a></li>
+                <li><a href="ressources.html">Ressources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Ressources pour aller plus loin</h1>
+        <p>Livres, associations, études, films</p>
+    </div>
+
+    <div class="container">
+        <section class="section">
+            <h2>📚 Livres essentiels</h2>
+            <ul class="resource-list">
+                <li><strong>Simone de Beauvoir</strong> – <em>Le Deuxième Sexe</em> (1949) : l'ouvrage fondateur du féminisme moderne.</li>
+                <li><strong>Chimamanda Ngozi Adichie</strong> – <em>Nous sommes tous des féministes</em> (2014) : un essai court et percutant.</li>
+                <li><strong>Virginie Despentes</strong> – <em>King Kong Théorie</em> (2006) : une réflexion iconoclaste sur le féminisme.</li>
+                <li><strong>Rebecca Solnit</strong> – <em>Les hommes m'expliquent les choses</em> (2014) : sur le "mansplaining".</li>
+                <li><strong>Collectif</strong> – <em>La charge émotionnelle et autres trucs invisibles</em> (2017) : bande dessinée d'Emma.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>🎬 Films et documentaires</h2>
+            <ul class="resource-list">
+                <li><strong>Mustang</strong> (2015, Deniz Gamze Ergüven) : cinq sœurs en Turquie entre tradition et liberté.</li>
+                <li><strong>Les Suffragettes</strong> (2015, Sarah Gavron) : le combat pour le droit de vote au Royaume-Uni.</li>
+                <li><strong>Femmes du XXIe siècle</strong> (série documentaire ARTE).</li>
+                <li><strong>She's Beautiful When She's Angry</strong> (2014) : sur la naissance du mouvement féministe aux USA.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>🤝 Associations et collectifs</h2>
+            <ul class="resource-list">
+                <li><strong>Solidarité Femmes</strong> (France) : accueil et accompagnement des femmes victimes de violences. <a href="https://www.solidaritefemmes.org" target="_blank">Site web</a></li>
+                <li><strong>Osez le féminisme !</strong> : association féministe généraliste. <a href="https://osezlefeminisme.fr" target="_blank">Site web</a></li>
+                <li><strong>La Maison des Femmes</strong> (Saint-Denis) : structure d'accueil globale. <a href="https://www.lamaisondesfemmes.fr" target="_blank">Site web</a></li>
+                <li><strong>UN Women</strong> : l'entité des Nations Unies pour l'égalité des sexes. <a href="https://www.unwomen.org/fr" target="_blank">Site web</a></li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>📊 Études et rapports</h2>
+            <ul class="resource-list">
+                <li><strong>INSEE</strong> – "Femmes et hommes, l'égalité en question" (édition annuelle).</li>
+                <li><strong>Haut Conseil à l'Égalité</strong> – rapports sur les violences faites aux femmes, la parité.</li>
+                <li><strong>Global Gender Gap Report</strong> (Forum économique mondial) : classement annuel des pays.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>🌐 Sites web et blogs</h2>
+            <ul class="resource-list">
+                <li><strong>Les Glorieuses</strong> : newsletter féministe.</li>
+                <li><strong>Madmoizelle</strong> : magazine en ligne qui traite de sujets de société.</li>
+                <li><strong>Slate.fr</strong> (rubrique "Genre").</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Femmes : Héritage & Modernité | Tous droits réservés</p>
+        <p></p>
+    </footer>
+</body>
+</html>
